@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive personal portfolio website design</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="logo">portfolio</a>
+      <i class="bx bx-menu"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <section class="home" id="home">
+      <div class="detail">
+        <h1>I'm Kalyani <span>Hankare</span></h1>
+        <p>
+          Hardworking Student seeking employment. Ready to utilize my skills and
+          passion to further the mission of a company. technology programs, and
+          advanced computer skills.Bringing forth a positive attitude and the
+          willingness and motivation to learn new programs.
+        </p>
+
+        <div class="social-media">
+          <a href="https://www.instagram.com/kalyani___17/"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://github.com/Kalyani356"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/kalyani-hankare-423a61229/"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+        </div>
+        <a href="kalyani hankare.pdf" class="btn">Download CV</a>
+      </div>
+      <div class="home-image">
+        <img src="pp.jpg" alt="profile-image" />
+      </div>
+    </section>
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-content">
+          <h2>About Me</h2>
+          <p>
+            Greetings! I am kalyani hankare, a dedicated and passionate Computer
+            Science Engineering professional with a strong foundation in
+            technology and a commitment to excellence. My journey in the world
+            of computer science has been marked by a relentless pursuit of
+            knowledge and a drive to contribute meaningfully to the
+            ever-evolving field.
+          </p>
+          <div class="educational-details">
+            <h3>Educational Details</h3>
+            <ul>
+              <li>
+                <strong>Bachelor of Technology</strong> - D.Y.PATIL SCHOOL OF
+                engineering (2021-2024)
+              </li>
+              <li>
+                <strong>Intermediate</strong> - SANJAY GHODAWAT UNIVERSITY
+                (2017-2020)
+              </li>
+              <li>
+                <strong>10th Board</strong> - VISHRAMBAG MADHYAMIK VIDYALAYA
+                SANGLI
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <h2 class="project-heading">My Projects</h2>
+      <div class="project">
+        <h3>Project 1</h3>
+        <p>Responsive Landing Page</p>
+        <img src="landing page.png" alt="Project 1 Screenshot" />
+        <a href="https://github.com/Kalyani356/Prodigy_wd_1">View Project</a>
+      </div>
+      <div class="project">
+        <h3>Project 2</h3>
+        <p>Stopwatch</p>
+        <img src="stopwatch.png" alt="Project 2 Screenshot" />
+        <a href="https://github.com/Kalyani356/prodigy_wd_02">View Project</a>
+      </div>
+      <div class="project">
+        <h3>Project 3</h3>
+        <p>Tic-Tac-Toe</p>
+        <img src="tic tac toc.png" alt="Project 3 Screenshot" />
+        <a href="https://github.com/Kalyani356/prodigy_wd_03">View Project</a>
+      </div>
+      <div class="project">
+        <h3>Project 4</h3>
+        <p>simple calculator</p>
+        <img src="simple cal.png" alt="Project 4 Screenshot" />
+        <a href="https://github.com/Kalyani356/calculator-">View Project</a>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out to me via the methods below:</p>
+        <ul>
+          <li>
+            Email:
+            <a href="mailto:kalyanihankare1@gmail.com"
+              >kalyanihankare1@gmail.com</a
+            >
+          </li>
+          <li>
+            LinkedIn:
+            <a
+              href="https://www.linkedin.com/in/kalyani-hankare-423a61229/"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+        <form action="process_form.php" method="POST">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            autocomplete="off"
+          />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            required
+            autocomplete="off"
+          ></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
